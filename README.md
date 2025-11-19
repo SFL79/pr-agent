@@ -34,3 +34,7 @@ Analyzes the business and technical effect of each change before approval.
 ## ❤️ Community
 This open-source release remains here as a community contribution from Qodo — the origin of modern AI-powered code collaboration.  
 We’re proud to share it and inspire developers worldwide.
+
+
+## Important notes:
+Bitbucket server build command - docker build . -t codiumai/pr-agent:bitbucket_server_webhook --target bitbucket_server_webhook -f docker/Dockerfile  
